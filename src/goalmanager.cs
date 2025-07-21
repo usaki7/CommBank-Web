@@ -15,7 +15,6 @@ import { BaseEmoji } from 'emoji-mart'
 import EmojiPicker from '../../components/EmojiPicker'
 import {TransparentButton} from "../../components/TransparentButton";
 
-
 type Props = { goal: Goal }
 export function GoalManager(props: Props) {
   const dispatch = useAppDispatch()
@@ -260,7 +259,7 @@ const EmojiButton = styled.div`
   border-radius: 8px;
   transition: background-color 0.2s ease;
   user-select: none;
-  
+
   &:hover {
     background-color: rgba(0, 0, 0, 0.05);
   }
